@@ -1,0 +1,24 @@
+{
+	"name": "ex-js-apidoc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npm run build && node apidoc-watch.js",
+		"build": "apidoc -i api/ -o doc/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/evilz0212/ex-js-apidoc.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/evilz0212/ex-js-apidoc/issues"
+	},
+	"homepage": "https://github.com/evilz0212/ex-js-apidoc#readme",
+	"devDependencies": {
+		"apidoc": "^0.26.0",
+		"gaze": "^1.1.3"
+	}
+}
