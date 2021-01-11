@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "npm run build && node apidoc-watch.js",
-		"build": "apidoc -i api/ -o doc/"
+		"build": "apidoc -i api/ -o doc/",
+		"deploy": "bash ./deploy.sh"
 	},
 	"repository": {
 		"type": "git",
